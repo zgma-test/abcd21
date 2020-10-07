@@ -1,0 +1,118 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "54d0e0ae-38d2-43f6-957a-be513f39fec5": {
+        "id": "54d0e0ae-38d2-43f6-957a-be513f39fec5",
+        "parent": null,
+        "name": "abcd2",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "a0ae01b7-5262-4d8e-828a-d50cf42ec92e"
+        ],
+        "isRemovable": false,
+        "filePath": "abcd2"
+      },
+      "a0ae01b7-5262-4d8e-828a-d50cf42ec92e": {
+        "id": "a0ae01b7-5262-4d8e-828a-d50cf42ec92e",
+        "parent": "54d0e0ae-38d2-43f6-957a-be513f39fec5",
+        "name": "function.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "abcd2/function.js",
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "handler": "handler"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1602057210982
+      },
+      "36e31fd8-9902-4ce8-94b4-a53561fdd78e": {
+        "id": "36e31fd8-9902-4ce8-94b4-a53561fdd78e",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "215f1bdd-e836-4a79-b66c-c926b8b3705d": {
+        "id": "215f1bdd-e836-4a79-b66c-c926b8b3705d",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "a0ae01b7-5262-4d8e-828a-d50cf42ec92e"
+    ],
+    "currentFileId": "a0ae01b7-5262-4d8e-828a-d50cf42ec92e",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "dialect": "Deployment Manager",
+      "definitions": {
+        "resources": [
+          {
+            "name": "abcd2function",
+            "type": "cloudfunctions.v1beta2.function",
+            "properties": {
+              "location": "us-east1",
+              "function": "abcd2function",
+              "sourceArchiveUrl": "gs://<no-builds-yet>/<no-builds-yet>",
+              "entryPoint": "abcd2function",
+              "timeout": "60s",
+              "availableMemoryMb": 128,
+              "runtime": "nodejs8",
+              "httpsTrigger": {}
+            }
+          }
+        ]
+      },
+      "syntax": "JSON"
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    },
+    "rootNode": "54d0e0ae-38d2-43f6-957a-be513f39fec5"
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.4",
+    "projectName": "abcd2",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1602057213236
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "abcd21",
+      "url": "https://github.com/zgma-test/abcd21"
+    }
+  }
+}
