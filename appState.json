@@ -23,7 +23,7 @@
         "isRemovable": true,
         "filePath": "abcd2/function.js",
         "config": {
-          "runtime": "nodejs8",
+          "runtime": "nodejs14",
           "timeout": 60,
           "memory": 128,
           "triggerType": 0,
@@ -35,7 +35,11 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1602057210982
+        "lastUpdated": 1629109660175,
+        "cursor": {
+          "lineNumber": 3,
+          "column": 55
+        }
       },
       "36e31fd8-9902-4ce8-94b4-a53561fdd78e": {
         "id": "36e31fd8-9902-4ce8-94b4-a53561fdd78e",
@@ -98,7 +102,7 @@
     "rootNode": "54d0e0ae-38d2-43f6-957a-be513f39fec5"
   },
   "PROJECT_META": {
-    "sigmaVersion": "1.4.4",
+    "sigmaVersion": "1.9.4",
     "projectName": "abcd2",
     "projectDescription": "",
     "projectVersion": "1.0.0",
@@ -106,7 +110,7 @@
     "platform": "GCP",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1602057213236
+    "lastSave": 1629109719597
   },
   "VCS_STATE": {
     "provider": "GitHub",
